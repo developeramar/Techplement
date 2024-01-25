@@ -42,7 +42,7 @@ if ($_SESSION['logged_in'] == true) {
         <!-- Todo section  -->
         <div class="container">
             <div class="row">
-                <div class="col-md-6 offset-md-3">
+                <div class="col-12 offset">
                     <!-- add todo -->
                     <div id="add-btn" class=" d-flex justify-content-center mt-5">
                         <span class="btn btn-primary"><i class="fa-solid fa-plus"></i> Add Todo</span>
@@ -55,10 +55,13 @@ if ($_SESSION['logged_in'] == true) {
                             </div>
                         </form>
                     </div>
+                    <div class="text-bold mt-5">
+                        <h6 >Your Tasks</h6>
+                    </div>
                     <!-- ./add todo -->
 
                     <!-- todo table -->
-                    <table class="table border rounded mt-5">
+                    <table class="table border rounded ">
                         <thead>
                             <tr>
                                 <th scope="col">sl.no</th>
