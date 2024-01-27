@@ -1,3 +1,5 @@
+------ Website Name is " TaskCraft " --------
+
 - Open the website on the Xampp server.
 - Create a database named "todophp" inside the MySQL database.
 - Paste and import the "todophp.sql" file into the database.
