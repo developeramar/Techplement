@@ -10,7 +10,6 @@
         /* Custom styles for the navbar */
         .navbar {
             background-color: #343a40; /* Dark background color */
-           
         }
 
         .navbar-brand {
